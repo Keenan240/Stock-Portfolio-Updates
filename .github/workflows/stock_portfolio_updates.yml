@@ -2,7 +2,8 @@ name: Stock Portfolio Updates
 
 on:
   schedule:
-    - cron: '0 9 * * *'  # Adjust the schedule as needed
+    - cron: '30 20 * * *'
+  # Adjust the schedule as needed
   workflow_dispatch:
 
 jobs:
